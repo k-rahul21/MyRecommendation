@@ -1,0 +1,49 @@
+body {
+  background-color: #fffbeb;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: #fffbeb;
+  color: #f59e0b;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #f59e0b;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.unorderedList {
+  border: 2px solid #f59e0b;
+  text-align: left;
+  max-width: 60vw;
+  margin: auto;
+  color: #d97706;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  color: #f59e0b;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid #d97706;
+  color: #f59e0b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
