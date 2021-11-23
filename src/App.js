@@ -6,24 +6,28 @@ const recommendation = {
     {
       name: "Naval",
       creator: "Naval Ravikant",
+      rating: "4.5",
       link:
         "https://open.spotify.com/show/7qZAVw03FuurfYnWIWwkHY?si=NLWAG5ihQuWJ6yt54HFpPg&utm_source=copy-link&dl_branch=1"
     },
     {
       name: "On Purpose with Jay Sheety",
       creator: "Jay Sheety",
+      rating: "4.2",
       link:
         "https://open.spotify.com/show/5EqqB52m2bsr4k1Ii7sStc?si=IwHpD1EKS8KDOZskH5de9w&utm_source=copy-link&dl_branch=1"
     },
     {
       name: "The School of Greatness",
       creator: "Lewis Howes",
+      rating: "4.4",
       link:
         "https://open.spotify.com/show/07GQhOZboEZOE1ysnFLipT?si=4q9XXmOYRwq99vepcgY1ZA&utm_source=copy-link&dl_branch=1"
     },
     {
       name: "The Ranveer Show",
       creator: "Ranveer Allahbadia",
+      rating: "4.0",
       link:
         "https://open.spotify.com/show/6ZcvVBPQ2ToLXEWVbaw59P?si=7OgZchoJQwWRkSWU2Azf9g&utm_source=copy-link&dl_branch=1"
     }
@@ -32,16 +36,19 @@ const recommendation = {
     {
       name: "Gaur Gopal Das",
       creator: "Gaur Gopal Das",
+      rating: "4.5",
       link: "https://www.youtube.com/c/GaurGopalDas"
     },
     {
       name: "Sadhguru",
       creator: "Sadhguru",
+      rating: "4.5",
       link: "https://www.youtube.com/c/sadhguru"
     },
     {
       name: "DandapaniLLC",
       creator: "Danaapani",
+      rating: "4.1",
       link: "https://www.youtube.com/user/DandapaniLLC"
     }
   ],
@@ -49,21 +56,25 @@ const recommendation = {
     {
       name: "neogcamp",
       creator: "Tanay Pratap",
+      rating: "4.9",
       link: "https://www.youtube.com/c/TanayPratap"
     },
     {
       name: "Akshay Saini",
       creator: "Akshay Saini",
+      rating: "4.7",
       link: "https://www.youtube.com/c/akshaymarch7"
     },
     {
       name: "Gaurav Sen",
       creator: "Gaurav Sen",
+      rating: "4.5",
       link: "https://www.youtube.com/c/GauravSensei"
     },
     {
       name: "Kunal Kushwaha",
       creator: "Kunal Kushwaha",
+      rating: "4.5",
       link: "https://www.youtube.com/c/KunalKushwaha"
     }
   ]
@@ -101,6 +112,7 @@ export default function App() {
               <div className="container">
                 <h3>{myRecommend.name}</h3>
                 <h4>Creator: {myRecommend.creator}</h4>
+                <h4>Rating: {myRecommend.rating}</h4>
                 <a href={myRecommend.link}>Follow</a>
               </div>
             </li>
